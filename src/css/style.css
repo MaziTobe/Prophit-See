@@ -1,0 +1,157 @@
+       /* general styling */
+       body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+
+        /* profile styling */
+        .profile {
+            text-align: center;
+            padding: 2rem;
+        }
+        .profile img {
+            width: 200px;
+            border-radius: 50%;
+        }
+        .stats, .mission {
+            margin: 1.5rem auto;
+            max-width: 600px;
+            text-align: center;
+        }
+
+
+        /* action button sstyling */
+        .action-button {
+            display: block;
+            width: 200px;
+            margin: 2rem auto;
+            padding: 10px;
+            background-color: #0c470e; 
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+
+        /* header styling */
+        header {
+            text-align: center;
+            padding: 2rem;
+            background-color:  #0c470e; 
+            color: white;
+        }    
+
+
+        /* footer styling */
+        .main-footer {
+            background-color: #0c470e;  
+            color: white;
+            padding: 25px 10px;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .footer-icons {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            margin-bottom: 15px;
+        }
+        .footer-icons .icon {
+            font-size: 28px;
+            color: white;
+            transition: 0.3s ease;
+        }
+        .footer-icons .icon:hover {
+            opacity: 0.7;
+            transform: scale(1.1);
+        }
+        .footer-text {
+            font-size: 14px;
+            color: #cccccc;
+        }
+
+
+        /* tip page styling */
+        .payment-options {
+            max-width: 600px;
+            margin: 2rem auto;
+            text-align: center;
+        }
+        .payment-group {
+            margin-top: 1rem;
+        }
+
+
+
+        /* image slide carousel styling */
+        .carousel-container {
+            position: relative;
+            width: 100%;
+            max-width: 300px;   /* with of actual images loaded*/
+            margin: auto;
+            overflow: hidden;
+            border-radius: 10px;
+        }
+        .carousel {
+            display: flex;
+            width: 100%;
+            transition: transform 2.5s ease;
+        }
+        .carousel img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .prev, .next {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(0,0,0,0.5);
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            font-size: 20px;
+            border-radius: 5px;
+        }
+        .prev { left: 10px; }
+        .next { right: 10px; }
+
+
+
+        /* contact page styling*/
+        .contact-container {
+            width: 90%;
+            max-width: 500px;
+            margin: 40px auto;
+            padding: 20px;
+            background: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .contact-container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        input, textarea {
+            width: 100%;
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .send-button {
+            width: 100%;
+            padding: 12px;
+            background: #222;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+        .send-button:hover {
+            opacity: 0.85;
+        }
+
